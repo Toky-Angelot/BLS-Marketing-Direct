@@ -7716,9 +7716,9 @@ ul {
 .service-details__title {
   font-size: 34px;
   font-weight: 500;
-  line-height: 44px;
+  /* line-height: 44px; */
   text-transform: uppercase;
-  margin-bottom: 32px;
+  /* margin-bottom: 32px; */
 }
 
 .service-details__text-1 {
@@ -8428,7 +8428,7 @@ ul {
 .contact-info {
   position: relative;
   display: block;
-  padding: 120px 0 0;
+  padding: 120px 0 100px 0;
 }
 
 .contact-info__single {
