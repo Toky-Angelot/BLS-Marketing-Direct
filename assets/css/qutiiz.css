@@ -2858,7 +2858,7 @@ ul {
 .brand-one .swiper-slide img {
   -webkit-transition: 500ms;
   transition: 500ms;
-  opacity: 0.3;
+  opacity: 1;
   max-width: 100%;
 }
 
@@ -3238,7 +3238,7 @@ ul {
 .why-choose-one__img {
   position: relative;
   display: block;
-  background-color: var(--qutiiz-black);
+  /* background-color: var(--qutiiz-black); */
   border-top-left-radius: 8px;
   border-bottom-left-radius: 8px;
   overflow: hidden;
@@ -8233,7 +8233,7 @@ ul {
 .brand-three .swiper-slide img {
   -webkit-transition: 500ms;
   transition: 500ms;
-  opacity: 0.3;
+  opacity: 0.8;
   max-width: 100%;
 }
 
