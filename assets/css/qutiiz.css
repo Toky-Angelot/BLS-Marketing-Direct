@@ -1523,7 +1523,7 @@ ul {
   background-position: center;
   transform: scale(1);
   opacity: 0.4;
-  background-color: var(--qutiiz-black);
+  /* background-color: var(--qutiiz-black); */
   background-blend-mode: luminosity;
   transition: transform 7000ms ease, opacity 1500ms ease-in;
   z-index: 1;
@@ -2562,7 +2562,7 @@ ul {
 .get-to-know {
   position: relative;
   display: block;
-  padding: 140px 0 120px;
+  padding: 70px 0 120px;
 }
 
 .get-to-know__left {
@@ -2575,7 +2575,7 @@ ul {
 .get-to-know__img {
   position: relative;
   display: block;
-  background-color: var(--qutiiz-black);
+  /* background-color: var(--qutiiz-black); */
   border-top-right-radius: 8px;
   border-bottom-right-radius: 8px;
 }
@@ -2587,12 +2587,12 @@ ul {
   right: 280px;
   content: "";
   bottom: -120px;
-  background-color: #f6f4f9;
+  /* background-color: #f6f4f9; */
   border-bottom-right-radius: var(--qutiiz-bdr-radius);
   z-index: -1;
 }
 
-.get-to-know__img:after {
+/* .get-to-know__img:after {
   position: absolute;
   bottom: -120px;
   right: 242px;
@@ -2601,7 +2601,7 @@ ul {
   width: 18px;
   height: 100px;
   border-radius: var(--qutiiz-bdr-radius);
-}
+} */
 
 .get-to-know__img img {
   width: 100%;
@@ -2837,9 +2837,11 @@ ul {
 # Brand One
 --------------------------------------------------------------*/
 .brand-one {
+  width: 100vw;
   position: relative;
   display: block;
-  padding: 98px 0 99px;
+  padding-top: 60px;
+  padding-bottom: 99px;
   border-bottom: 1px solid #e2e0e5;
 }
 
@@ -2971,14 +2973,14 @@ ul {
 .project-one__img {
   position: relative;
   display: block;
-  background-color: var(--qutiiz-black);
+  /* background-color: var(--qutiiz-black); */
   width: 100%;
   border-radius: var(--qutiiz-bdr-radisu);
 }
 
 .project-one__img img {
   width: 100%;
-  mix-blend-mode: luminosity;
+  /* mix-blend-mode: luminosity; */
   transition: transform 500ms ease, mix-blend-mode 500ms ease;
   border-radius: var(--qutiiz-bdr-radisu);
 }
@@ -4196,14 +4198,14 @@ ul {
 .tabs-content__experience-img {
   position: relative;
   display: block;
-  background-color: var(--qutiiz-black);
+  /* background-color: var(--qutiiz-black); */
   margin-left: 50px;
   border-radius: var(--qutiiz-bdr-radius);
 }
 
 .tabs-content__experience-img img {
   width: auto;
-  mix-blend-mode: luminosity;
+  /* mix-blend-mode: luminosity; */
   border-radius: var(--qutiiz-bdr-radius);
 }
 
