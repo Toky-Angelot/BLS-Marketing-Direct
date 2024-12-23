@@ -3474,10 +3474,32 @@ ul {
   opacity: 0;
 }
 
+.team-one__hover_services {
+  width: 54%;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 10px 60px 0px rgb(0, 0, 0, 0.05);
+  text-align: center;
+  padding: 30px 30px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transform: translateY(-66%);
+  transition: opacity 500ms ease, visibility 500ms ease, transform 500ms ease;
+  visibility: hidden;
+  opacity: 0;
+}
+
 .team-one__single:hover .team-one__hover {
   visibility: visible;
   transform: translateY(0%);
   opacity: 1;
+}
+
+.team-one__single:hover .team-one__hover_services {
+  visibility: visible;
+  transform: translateY(0%);
+  opacity: 0.8;
 }
 
 .team-one__hover-name {
