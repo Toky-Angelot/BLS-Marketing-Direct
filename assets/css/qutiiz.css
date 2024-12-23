@@ -7708,7 +7708,7 @@ ul {
 
 .service-details__img img {
   width: 100%;
-  mix-blend-mode: luminosity;
+  /* mix-blend-mode: luminosity; */
   border-radius: var(--qutiiz-bdr-radius);
 }
 
