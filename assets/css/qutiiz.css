@@ -3371,7 +3371,8 @@ ul {
 .team-one {
   position: relative;
   display: block;
-  padding: 120px 0 140px;
+  padding-top: 100px;
+  padding-bottom: 50px;
 }
 
 .team-one-container {
@@ -3400,7 +3401,7 @@ ul {
   overflow: hidden;
   border-top-right-radius: 8px;
   border-top-left-radius: 8px;
-  background-color: var(--qutiiz-black);
+  /* background-color: var(--qutiiz-black); */
   background-blend-mode: luminosity;
 }
 
@@ -6177,7 +6178,7 @@ ul {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-color: var(--qutiiz-black);
+  /* background-color: var(--qutiiz-black); */
   background-blend-mode: luminosity;
   opacity: 0.4;
   z-index: -1;
