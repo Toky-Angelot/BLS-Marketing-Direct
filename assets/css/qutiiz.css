@@ -2897,6 +2897,10 @@ ul {
   margin-bottom: 49px;
 }
 
+#project-filter-title:hover {
+  color: #419349;
+}
+
 .project-filter.style1 li {
   position: relative;
   display: inline-block;
