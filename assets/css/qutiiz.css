@@ -2882,8 +2882,9 @@ ul {
 .project-one {
   position: relative;
   display: block;
-  padding: 70px 0 90px;
+  padding: 90 90px;
 }
+
 
 .project-one .section-title {
   margin-bottom: 16px;
